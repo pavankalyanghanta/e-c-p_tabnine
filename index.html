@@ -1,0 +1,185 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Essence Coffee Palace</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Essence Coffee Palace</h1>
+            <p>A place to relax, recharge, and enjoy a delicious cup of coffee.</p>
+            <a href="#menu" class="btn">Discover Our Menu</a>
+        </div>
+    </header>
+<!-- Menu -->
+<section id="menu" class="container">
+    <h2>Menu</h2>
+    <div class="menu-items">
+        <!-- Espresso -->
+        <div class="menu-item">
+            <img src="img/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>A classic Italian coffee made by forcing hot water under pressure through finely ground coffee beans.</p>
+            <div class="menu-item-price">
+                <span>$3.50</span>
+                <span class="small-text">Regular</span>
+            </div>
+            <div class="menu-item-price">
+                <span>$4.50</span>
+                <span class="small-text">Large</span>
+            </div>
+        </div>
+
+        <!-- Cappuccino -->
+        <div class="menu-item">
+            <img src="img/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>A coffee drink consisting of espresso topped with steamed milk and a layer of foam.</p>
+            <div class="menu-item-price">
+                <span>$4.00</span>
+                <span class="small-text">Regular</span>
+            </div>
+            <div class="menu-item-price">
+                <span>$5.00</span>
+                <span class="small-text">Large</span>
+            </div>
+        </div>
+
+        <!-- Latte -->
+        <div class="menu-item">
+            <img src="img/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>A coffee drink made by steaming milk and adding espresso, creating a creamy and rich beverage.</p>
+            <div class="menu-item-price">
+                <span>$4.50</span>
+                <span class="small-text">Regular</span>
+            </div>
+            <div class="menu-item-price">
+                <span>$5.50</span>
+                <span class="small-text">Large</span>
+            </div>
+        </div>
+
+        <!-- Mocha -->
+        <div class="menu-item">
+            <img src="img/mocha.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>A coffee drink made with espresso and chocolate, often including steamed milk and whipped cream.</p>
+            <div class="menu-item-price">
+                <span>$5.00</span>
+                <span class="small-text">Regular</span>
+            </div>
+            <div class="menu-item-price">
+                <span>$6.00</span>
+                <span class="small-text">Large</span>
+            </div>
+        </div>
+
+        <!-- Americano -->
+        <div class="menu-item">
+            <img src="img/americano.jpg" alt="Americano">
+            <h3>Americano</h3>
+            <p>A coffee drink made by adding hot water to espresso, creating a strong and concentrated brew.</p>
+            <div class="menu-item-price">
+                <span>$4.00</span>
+                <span class="small-text">Regular</span>
+            </div>
+            <div class="menu-item-price">
+                <span>$5.00</span>
+                <span class="small-text">Large</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Sellers -->
+    <h3>Best Sellers</h3>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="img/vanilla-latte.jpg" alt="Vanilla Latte">
+            <h4>Vanilla Latte</h4>
+            <p>A creamy and delicious coffee drink with a smooth and sweet vanilla flavor.</p>
+            <div class="menu-item-price">
+                <span>$5.00</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="img/espresso-shot.jpg" alt="Espresso Shot">
+            <h4>Espresso Shot</h4>
+            <p>A small shot of espresso, perfect for an afternoon pick-me-up.</p>
+            <div class="menu-item-price">
+                <span>$2.50</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="img/chocolate-chip-cookie.jpg" alt="Chocolate Chip Cookie">
+            <h4>Chocolate Chip Cookie</h4>
+            <p>A classic cookie made with chocolate chips, a soft and chewy texture.</p>
+            <div class="menu-item-price">
+                <span>$2.00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customization Options -->
+    <h3>Customization Options</h3>
+    <div class="menu-items">
+        <div class="menu-item">
+            <h4>Drink Size</h4>
+            <div class="menu-item-checkboxes">
+                <input type="checkbox" id="small-drink" name="drink-size" value="small">
+                <label for="small-drink">Small</label>
+                <input type="checkbox" id="large-drink" name="drink-size" value="large">
+                <label for="large-drink">Large</label>
+            </div>
+        </div>
+        <div class="menu-item">
+            <h4>Extras</h4>
+            <div class="menu-item-checkboxes">
+                <input type="checkbox" id="sugar" name="extras" value="sugar">
+                <label for="sugar">Sugar</label>
+                <input type="checkbox" id="milk" name="extras" value="milk">
+                <label for="milk">Milk</label>
+                <input type="checkbox" id="whipped-cream" name="extras" value="whipped-cream">
+                <label for="whipped-cream">Whipped Cream</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Placement Form -->
+    <h3>Order Placement</h3>
+    <form action="https://formspree.io/f/mayvowej" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <div class="form-radio-group">
+                <input type="radio" id="gender-male" name="gender" value="male">
+                <label for="gender-male">Male</label>
+                <input type="radio" id="gender-female" name="gender" value="female">
+                <label for="gender-female">Female</label>
+                <input type="radio" id="gender-other" name="gender" value="other">
+                <label for="gender-other">Other</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
